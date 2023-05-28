@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class Fisioterapeutas extends Controller
 {
-    public function fisio(){
-        return view('welcome');
+    public function registro_fisio(){
+        return view('registro_fisio');
     }
 }
