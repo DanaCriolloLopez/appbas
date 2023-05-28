@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Inicio;
+use App\Http\Controllers\Paciente;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +16,4 @@ use App\Http\Controllers\Inicio;
 */
 
 Route::get('/', [Inicio::class, 'inicio']);
+Route::get('/paciente', [Paciente::class, 'paciente']);
