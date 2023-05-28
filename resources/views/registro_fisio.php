@@ -28,6 +28,14 @@
                     <label class="form-label m-3">Teléfono</label>
                     <input type="number" name="txttel" class="form-control" required>
 
+                    <label class="form-label m-3">Especialidad</label>
+                    <select name='ls_proc' class='form-select'>
+                        <option value='1'>Brazo</option>
+                        <option value='2'>Mano</option>
+                        <option value='3'>Pie</option>
+                        <option value='4'>Espalda</option>
+                        </select>
+
                     <hr>
                     <input type="submit" value="Guardar" class="btn btn-success --bs-success-rgb">
                     <input type="reset" value="Limpiar" class="btn btn-success --bs-success-rgb">
