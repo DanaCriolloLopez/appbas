@@ -17,5 +17,5 @@ use App\Http\Controllers\Fisioterapeutas;
 */
 
 Route::get('/', [Inicio::class, 'inicio']);
-Route::get('/paciente', [Paciente::class, 'paciente']);
+Route::get('/cita', [Paciente::class, 'cita']);
 Route::get('/fisio', [Fisioterapeutas::class, 'fisio']);

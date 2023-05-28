@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class Paciente extends Controller
 {
-    public function paciente(){
+    public function cita(){
         return view('cita');
     }
 }
