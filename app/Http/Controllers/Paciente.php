@@ -18,5 +18,8 @@ class Paciente extends Controller
     public function bit_pa(){
         return view('bitacora_pacientes');
     }
+    public function listar_pa(){
+        return view('lst_pac');
+    }
 }
 
