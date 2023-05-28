@@ -19,4 +19,5 @@ use App\Http\Controllers\Fisioterapeutas;
 Route::get('/', [Inicio::class, 'inicio']);
 Route::get('/cita', [Paciente::class, 'cita']);
 Route::get('/edpa', [Paciente::class, 'editar']);
+Route::get('/repa', [Paciente::class, 'registrar']);
 Route::get('/regfisio', [Fisioterapeutas::class, 'registro_fisio']);

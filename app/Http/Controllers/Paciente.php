@@ -12,5 +12,8 @@ class Paciente extends Controller
     public function editar(){
         return view('editar_pa');
     }
+    public function registrar(){
+        return view('registrar_pa');
+    }
 }
 
