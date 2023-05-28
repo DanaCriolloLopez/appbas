@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Inicio;
 use App\Http\Controllers\Paciente;
+use App\Http\Controllers\Fisioterapeutas;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +18,4 @@ use App\Http\Controllers\Paciente;
 
 Route::get('/', [Inicio::class, 'inicio']);
 Route::get('/paciente', [Paciente::class, 'paciente']);
+Route::get('/fisio', [Fisioterapeutas::class, 'fisio']);
