@@ -25,6 +25,15 @@
                     <label class="form-label m-3">Nombres</label>
                     <input type="text" name="txtnom" class="form-control" required>
 
+                    <label class="form-label m-3">Fecha de Nacimiento</label>
+                    <input type="date" name="txtfec" class="form-control" required>
+
+                    <label class="form-label m-3">Genero</label>
+                    <select name="lstgen" class="form-select">
+                        <option value="M">Masculino</option>
+                        <option value="F">Femenino</option>
+                    </select>
+
                     <label class="form-label m-3">Teléfono</label>
                     <input type="number" name="txttel" class="form-control" required>
 

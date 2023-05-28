@@ -33,6 +33,35 @@
             <button type="submit" class="btn btn-success --bs-success-rgb" >Iniciar sesión</button>
         </form>
     </div>
+
+    <br>
+    <br>
+    <footer class="text-left text-lg-start bg-light text-muted">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    </section>
+    <section class="">
+        <div class="container text-left text-md-start mt-5">
+            <div class="row mt-1 text-left">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 text-left">
+                    <h6 class="text-uppercase fw-bold mb-4 text-left">
+                        <i class="fas fa-gem me-3 text-left"></i>PARTICIPANTES
+                    </h6>
+                    <!-- <ul> -->
+                        <p> DANA CRIOLLO LOPEZ</p>
+                        <p>DAVID CRIOLLO GOMEZ</p>
+                        <p>JUAN CAMILO INSUASTY</p>
+                    <!-- </ul> -->
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2023 Derechos reservados:
+        <a class="text-reset fw-bold" href="https://www.udenar.edu.co/">UDENAR</a>
+    </div>
+</footer>
+
     
 
 
