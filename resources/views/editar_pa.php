@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
-    <?php include("menu_admin.php"); 
+    <?php include("menu.php"); 
     ?>
     <div class="container col-xl-12 col-md-12 col-sm-12 col-12">
         <br>
@@ -34,6 +34,28 @@
         <br>
     <div class="container col-xl-12 col-md-12 col-sm-12 col-12 " >
     
+    <form class="row g-7" action="upload.php" method="post" enctype="multipart/form-data" id="frm_fotoperfil" >
+                <br><h5>Editar foto de perfil del paciente</h5>
+                <div class='col-xl-2 col-md-5 col-sm-11  col-11'>
+                <input type='hidden' id='campo_oculto_solicitud1' name='ls_ced_pac' value='$cedpac'>
+                <table>
+                    <tr><td><img class="img-thumbnail" width="200" height="300" src="https://definicion.de/wp-content/uploads/2019/07/perfil-de-usuario.png"/></td></tr>
+                    </table>
+                    </div>
+                    
+                                <div class='col-xl-4 col-md-5 col-sm-11  col-11'>
+                                    <br>
+                                    <label for='formFile' class='form-label'>Cargue o cambie foto de Perfil</label>
+                                    <input class='form-control' type='file' id='formFile' name='txtarc'>
+                                </div>
+                                <div class='col-xl-4 col-md-5 col-sm-11  col-11'>
+                                    <br>
+                                    <input type='submit' value='Actualizar foto' class='btn btn-success --bs-success-rgb m-4 mb-3'>
+                                    
+                                    
+                                </div>
+            
+        </form>
 
         <form action='' method='post' id='formodpac'>
             <br><h5>Editar datos del paciente</h5>
