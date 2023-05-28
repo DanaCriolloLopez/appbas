@@ -20,4 +20,5 @@ Route::get('/', [Inicio::class, 'inicio']);
 Route::get('/cita', [Paciente::class, 'cita']);
 Route::get('/edpa', [Paciente::class, 'editar']);
 Route::get('/repa', [Paciente::class, 'registrar']);
+Route::get('/bitacora', [Paciente::class, 'bit_pa']);
 Route::get('/regfisio', [Fisioterapeutas::class, 'registro_fisio']);

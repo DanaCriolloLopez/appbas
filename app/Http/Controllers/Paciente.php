@@ -15,5 +15,8 @@ class Paciente extends Controller
     public function registrar(){
         return view('registrar_pa');
     }
+    public function bit_pa(){
+        return view('bitacora_pacientes');
+    }
 }
 
